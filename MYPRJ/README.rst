@@ -28,3 +28,6 @@ john.doe@uni-flensburg.de
 DOI
 ===
 Doe, John. 2017. “MyProject Energy Scenarios.” Open Science Framework. June 28. osf.io/1234. 
+
+Licence
+=======
