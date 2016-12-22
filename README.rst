@@ -1,4 +1,4 @@
-FlEnS (Fl)ensburg (En)ergy (S)cenarios (Public data repository)
-===============================================================
+FlEnS (Fl)ensburg (En)ergy (S)cenarios
+======================================
 
-See subfolders for respective scenario descriptions and data.
+See subfolders for respective scenario descriptions and data!
