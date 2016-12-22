@@ -2,7 +2,7 @@ Scenarios derived from the ENTSO-E Ten-Year-Network-Development-Plan (TYNDP) whi
 So far, the data have been used in the research project DLSK-SH (Druckluftspeicherkraftwerk Schleswig-Holstein).
 There are currently some `licensing issues <http://open-power-system-data.org/legal>`_ due to the ENTSO-E data. The data will be published if these are cleared.
 
-Table of Contents:
+**Table of Contents**
 
 .. contents::
     :depth: 1
