@@ -12,11 +12,9 @@ renpass_gis v0.1
 Description
 ===========
 
-Scenarios derived from the ENTSO-E Ten-Year-Network-Development-Plan which build the base for the German Netzentwicklungsplan (NEP).
+Scenarios derived from the ENTSO-E Ten-Year-Network-Development-Plan (TYNDP) which serves as a base for the German Netzentwicklungsplan (NEP).
 
-Research projects the data have been used for:
-
-* DLSK-SH (Druckluftspeicherkraftwerk Schleswig-Holstein)
+Research projects the data have been used for: DLSK-SH (Druckluftspeicherkraftwerk Schleswig-Holstein)
 
 There are currently some `licensing issues <http://open-power-system-data.org/legal>`_ due to the ENTSO-E data. The data will be published if these are cleared.
 
@@ -271,17 +269,36 @@ Transshipment - Net Transfer Capacities (NTC)
 - Year: 2030
 - Manipulations: None
 
-
 ..  * "BMWI Energie Daten - Factors, Sheet 0.2 and 0.3":https://www.bmwi.de/BMWi/Redaktion/Binaer/energie-daten-gesamt,property=blob,bereich=bmwi2012,sprache=de,rwb=true.xls
 ..  * "DIW2013":https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf
+
+.. _MARTINEZ-ANIDO2013 : http://ses.jrc.ec.europa.eu/sites/ses.jrc.ec.europa.eu/files/documents/thesis_brancucci_electricity_without_borders.pdf
+.. _ISI2011: http://www.isi.fraunhofer.de/isi-wAssets/docs/x/de/publikationen/Final_Report_EU-Long-term-scenarios-2050_FINAL.pdf
+.. _UBA2015: https://www.umweltbundesamt.de/themen/klima-energie/treibhausgas-emissionen
+.. _IPCC2006: http://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/2_Volume2/V2_2_Ch2_Stationary_Combustion.pdf
+.. _DEFRA2012: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/69554/pb13773-ghg-conversion-factors-2012.pdf
+.. _OEKO2007: http://www.oeko.de/oekodoc/318/2007-008-de.pdf
+.. _PROGNOS2013: http://www.prognos.com/uploads/tx_atwpubdb/131010_Prognos_Belectric_Studie_Freiflaechen_Solarkraftwerke_02.pdf
+.. _ECOFYS2014: http://www.ecofys.com/files/files/ecofys-2014-international-comparison-fossil-power-efficiency.pdf
+.. _IER2010: http://www.ier.uni-stuttgart.de/publikationen/arbeitsberichte/downloads/Arbeitsbericht_08.pdf
+.. _DIW2013: https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf
+.. _Energynet2012: https://www.energinet.dk/SiteCollectionDocuments/Danske%20dokumenter/Forskning/Technology_data_for_energy_plants.pdf
+.. _BMU-DLR2012: http://www.dlr.de/dlr/Portaldata/1/Resources/bilder/portal/portal_2012_1/leitstudie2011_bf.pdf
+.. _NEP2015: http://www.netzentwicklungsplan.de/NEP_2025_1_Entwurf_Kap_1_bis_3.pdf
+.. _IRENA2015: http://www.irena.org/DocumentDownloads/Publications/IRENA_REmap_Germany_report_2015.pdf
+.. _ENTSOE2014a: https://www.entsoe.eu/Documents/SDC%20documents/SOAF/140602_SOAF%202014_dataset.zip
+.. _ENTSOE2014b: https://www.entsoe.eu/major-projects/ten-year-network-development-plan/maps-and-data/Pages/default.aspx
+.. _ENTSOE2014c: https://www.entsoe.eu/major-projects/ten-year-network-development-plan/tyndp-2014/Documents/TYNDP2014%20market%20modelling%20data.xlsx
+.. _Bundesbank: https://www.bundesbank.de/Redaktion/DE/Downloads/Statistiken/Aussenwirtschaft/Devisen_Euro_Referenzkurs/stat_eurefd.pdf?__blob=publicationFile
+
 
 Contact
 =======
 
-Cord Kaldemeyer (Flensburg University of Applied Sciences): <cord.kaldemeyer(at)hs-flensburg.de>
+Marion Christ (University of Flensburg): <marion.christ(at)uni-flensburg.de>
 
-DOI
-===
+Citation
+========
 
 We have an `entry <https://osf.io/rz7fq/>`_ in the `Open Science Framework <https://osf.io>`_ which can be used.
 
