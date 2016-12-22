@@ -1,8 +1,8 @@
 Scenarios derived from the ENTSO-E Ten-Year-Network-Development-Plan (TYNDP) which serves as a base for the German Netzentwicklungsplan (NEP).
-
-Research projects the data have been used for: DLSK-SH (Druckluftspeicherkraftwerk Schleswig-Holstein)
-
+So far, the data have been used in the research project DLSK-SH (Druckluftspeicherkraftwerk Schleswig-Holstein).
 There are currently some `licensing issues <http://open-power-system-data.org/legal>`_ due to the ENTSO-E data. The data will be published if these are cleared.
+
+Table of Contents:
 
 .. contents::
     :depth: 1
