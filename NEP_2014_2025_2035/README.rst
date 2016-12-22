@@ -295,7 +295,7 @@ Transshipment - Net Transfer Capacities (NTC)
 Contact
 =======
 
-Cord Kaldemeyer (Flensburg University of Applied Sciences): <cord.kaldemeyer(at)hs-flensburg.de>
+Marion Christ (University of Flensburg): <marion.christ(at)uni-flensburg.de>
 
 Citation
 ========
