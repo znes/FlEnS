@@ -1,3 +1,9 @@
+Scenarios derived from the ENTSO-E Ten-Year-Network-Development-Plan (TYNDP) which serves as a base for the German Netzentwicklungsplan (NEP).
+
+Research projects the data have been used for: DLSK-SH (Druckluftspeicherkraftwerk Schleswig-Holstein)
+
+There are currently some `licensing issues <http://open-power-system-data.org/legal>`_ due to the ENTSO-E data. The data will be published if these are cleared.
+
 .. contents::
     :depth: 1
     :local:
@@ -8,15 +14,6 @@ Compatibility
 =============
 
 renpass_gis v0.1
-
-Description
-===========
-
-Scenarios derived from the ENTSO-E Ten-Year-Network-Development-Plan (TYNDP) which serves as a base for the German Netzentwicklungsplan (NEP).
-
-Research projects the data have been used for: DLSK-SH (Druckluftspeicherkraftwerk Schleswig-Holstein)
-
-There are currently some `licensing issues <http://open-power-system-data.org/legal>`_ due to the ENTSO-E data. The data will be published if these are cleared.
 
 Documentation
 =============
