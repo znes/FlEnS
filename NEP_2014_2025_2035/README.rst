@@ -269,6 +269,7 @@ Transshipment - Net Transfer Capacities (NTC)
 ..  * "BMWI Energie Daten - Factors, Sheet 0.2 and 0.3":https://www.bmwi.de/BMWi/Redaktion/Binaer/energie-daten-gesamt,property=blob,bereich=bmwi2012,sprache=de,rwb=true.xls
 ..  * "DIW2013":https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf
 
+.. _Kohlenstatistik: http://www.kohlenstatistik.de
 .. _MARTINEZ-ANIDO2013 : http://ses.jrc.ec.europa.eu/sites/ses.jrc.ec.europa.eu/files/documents/thesis_brancucci_electricity_without_borders.pdf
 .. _ISI2011: http://www.isi.fraunhofer.de/isi-wAssets/docs/x/de/publikationen/Final_Report_EU-Long-term-scenarios-2050_FINAL.pdf
 .. _UBA2015: https://www.umweltbundesamt.de/themen/klima-energie/treibhausgas-emissionen
@@ -287,8 +288,6 @@ Transshipment - Net Transfer Capacities (NTC)
 .. _ENTSOE2014b: https://www.entsoe.eu/major-projects/ten-year-network-development-plan/maps-and-data/Pages/default.aspx
 .. _ENTSOE2014c: https://www.entsoe.eu/major-projects/ten-year-network-development-plan/tyndp-2014/Documents/TYNDP2014%20market%20modelling%20data.xlsx
 .. _Bundesbank: https://www.bundesbank.de/Redaktion/DE/Downloads/Statistiken/Aussenwirtschaft/Devisen_Euro_Referenzkurs/stat_eurefd.pdf?__blob=publicationFile
-.. _Kohlenstatistik:
-http://www.kohlenstatistik.de
 
 
 Contact
