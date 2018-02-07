@@ -1,4 +1,4 @@
-The scenario 2050_basis is a 100 % renewable scenario for the year 2050 including Germany in 21 dispatch-regions and the neighbouring countries. The installed capacities and grid connections are based on the ehighway2016_ scenario X-7: 100% RES electricity. No konventional power plants in Germany. Just gas plants in neighbouring countries. 
+The scenario 2050_basis is a 100 % renewable scenario for the year 2050 including Germany in 21 dispatch-regions and the neighbouring countries. The installed capacities and grid connections are based on the ehighway2016_ scenario X-7: 100% RES electricity.  
 
 The scenarios 2050_best-case, 2050_best-case-plus, 2050_trend-case and 2050_worst-case are socio-ecological scenarios. The installed capacities of onshore and offshore wind energy are modified compared to the scenario 2050_basis.  
 
