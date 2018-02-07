@@ -1,3 +1,9 @@
+The scenario 2050_basis is a 100 % renewable scenario for the year 2050 including Germany in 21 dispatch-regions and the neighbouring countries. The installed capacities and grid connections are based on the ehighway2016_ scenario X-7: 100% RES electricity. No konventional power plants in Germany. Just gas plants in neighbouring countries. 
+
+The scenarios 2050_best-case, 2050_best-case-plus, 2050_trend-case and 2050_worst-case are socio-ecological scenarios. The installed capacities of onshore and offshore wind energy are modified compared to the scenario 2050_basis.  
+
+The scenarios are developed by Marion Wingenbach (marion.christ@uni-flensburg.de). More information can be found in her phd thesis: "Integration sozial-ökologischer Faktoren in die Energiesystemmodellierung am Beispiel von Entwicklungspfaden für den Windenergieausbau in Deutschland". Europa-Universität Flensburg. 
+
 
 .. contents:: `Table of contents`
     :depth: 1
@@ -10,14 +16,6 @@ Compatibility
 
 renpass_gis v0.1
 
-Documentation
-=============
-
-The scenario 2050_basis is a 100 % renewable scenario for the year 2050 including Germany in 21 dispatch-regions and the neighbouring countries. The installed capacities and grid connections are based on the ehighway2016_ scenario X-7: 100% RES electricity. No konventional power plants in Germany. Just gas plants in neighbouring countries. 
-
-The scenarios 2050_best-case, 2050_best-case-plus, 2050_trend-case and 2050_worst-case are socio-ecological scenarios. The installed capacities of onshore and offshore wind energy are modified compared to the scenario 2050_basis.  
-
-The scenarios are developed by Marion Wingenbach (marion.christ@uni-flensburg.de). More information can be found in her phd thesis: "Integration sozial-ökologischer Faktoren in die Energiesystemmodellierung am Beispiel von Entwicklungspfaden für den Windenergieausbau in Deutschland". Europa-Universität Flensburg. 
 
 Scenario Data
 =============
@@ -31,8 +29,6 @@ Regions
 Fuel prices & CO2 costs
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-European Countries
-~~~~~~~~~~~~~~~~~~
 
 +------------+-----------------------------+---------------+------------------+-----------+---------------------------------------+
 |Fuel        |Fuel price €2014/GJ          |Source         |Emission tCO2/GJ  |Source     |Fuel price including CO2 cost €2014/MWh|
@@ -102,19 +98,21 @@ Efficiencies
 
 Efficiencies Storage capacities
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 +--------------+--------------+----------------+-----------+--------------------+
-Technology     | Cebulla2015_ | Energynet2012_ | AEE2012_  | scenario znes_2050 |
+| Technology   | Cebulla2015_ | Energynet2012_ | AEE2012_  | scenario znes_2050 |
++==============+==============+================+===========+====================+
+| pumped hydro | 82.81        | 70-80          | 65-85     | 80                 |
 +--------------+--------------+----------------+-----------+--------------------+
-pumped hydro   | 82.81        | 70-80          | 65-85     | 80                 |
+| a_caes       | 72.98        | \-             | 62-70     | 70                 |
 +--------------+--------------+----------------+-----------+--------------------+
-a_caes         | 72.98        | \-             | 62-70     | 70                 |
+| hydrogen     | 46.5         | 35             | 20-40     | 40                 |
 +--------------+--------------+----------------+-----------+--------------------+
-hydrogen       | 46.5         | 35             | 20-40     | 40                 |
+| lithium_ion  | 94.09        | \-             | 90-95     | 95                 |
 +--------------+--------------+----------------+-----------+--------------------+
-lithium_ion    | 94.09        | \-             | 90-95     | 95                 |
+| redox_flow   | 84.64        | 70             | 70-80     | 75                 |
 +--------------+--------------+----------------+-----------+--------------------+
-redox_flow     | 84.64        | 70             | 70-80     | 75                 |
-+--------------+--------------+----------------+-----------+--------------------+
+
 
 
 Installed capacities
@@ -162,16 +160,17 @@ Installed capacities
 
 Own assumptions for storage duration time based on ehighwayCaes2014_
 
+
 +--------------+--------------+
-Technology     | duration (h) | 
+| Technology   | duration (h) |
 +--------------+--------------+
-a_caes         | 3            |
+| a_caes       | 3            |
 +--------------+--------------+
-hydrogen       | 10           |
+| hydrogen     | 10           |
 +--------------+--------------+
-lithium_ion    | 5            |
+| lithium_ion  | 5            |
 +--------------+--------------+
-redox_flow     | 3.3          |
+| redox_flow   | 3.3          |
 +--------------+--------------+
 
 
