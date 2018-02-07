@@ -1,6 +1,6 @@
 
 .. contents:: `Table of contents`
-    :depth: 2
+    :depth: 1
     :local:
     :backlinks: top
 .. sectnum::
@@ -39,18 +39,9 @@ European Countries
 +============+=============================+===============+==================+===========+=======================================+
 |gas         |11.54                        |BMU-DLR2012_   |0.0559            |UBA2015_   | 54.0533                               |
 +------------+-----------------------------+---------------+------------------+-----------+---------------------------------------+
-|hard_coal   |6.97                         |Ibid.          |0.0934            |Ibid.      | 45.8663                               |
-+------------+-----------------------------+---------------+------------------+-----------+---------------------------------------+
-|oil         |19.60                        |Ibid.          |0.0733            |Ibid.      | 86.8667                               |
-+------------+-----------------------------+---------------+------------------+-----------+---------------------------------------+
-|waste       |1.86                         |IRENA2015_     |0.0917            |IPCC2006_  | 27.245                                |
-+------------+-----------------------------+---------------+------------------+-----------+---------------------------------------+
 |biomass     |7.58                         |PROGNOS2013_   |0.0020            |DEFRA2012_ | 27.7348                               |
 +------------+-----------------------------+---------------+------------------+-----------+---------------------------------------+
-|lignite     |1.15                         |ISI2011_       |0.1051            |UBA2015_   | 27.5949                               |
-+------------+-----------------------------+---------------+------------------+-----------+---------------------------------------+
-|uranium     |1.11                         |Ibid.          |0.0088            |OEKO2007_  | 5.9617                                |
-+------------+-----------------------------+---------------+------------------+-----------+---------------------------------------+
+
 
 
 with CO2 price = 62.05 EUR/tCO2 (BMU-DLR2012_)
@@ -82,19 +73,7 @@ Variable costs
 +===========+==========+===============+
 |gas        | 2.0      | IER2010_      |
 +-----------+----------+---------------+
-|hard_coal  | 4.0      | Ibid.         |
-+-----------+----------+---------------+
-|oil        | 1.5      | DIW2013_      |
-+-----------+----------+---------------+
-|waste      | 23.0     | Energynet2012_|
-+-----------+----------+---------------+
 |biomass    | 3.9      | Ibid.         |
-+-----------+----------+---------------+
-|lignite    | 4.4      | IER2010_      |
-+-----------+----------+---------------+
-|uranium    | 0.5      | Ibid.         |
-+-----------+----------+---------------+
-|mixed_fuels| 23.0     | nan           |
 +-----------+----------+---------------+
 
 Fixed costs
@@ -105,19 +84,7 @@ Fixed costs
 +===========+==========+===============+
 |gas        | 19,000   | IER2010_      |
 +-----------+----------+---------------+
-|hard_coal  | 35,000   | Ibid.         |
-+-----------+----------+---------------+
-|oil        |  6,000   | DIW2013_      |
-+-----------+----------+---------------+
-|waste      | 16,500   | Energynet2012_|
-+-----------+----------+---------------+
 |biomass    | 29,000   | Ibid.         |
-+-----------+----------+---------------+
-|lignite    | 39,000   | IER2010_      |
-+-----------+----------+---------------+
-|uranium    | 55,000   | Ibid.         |
-+-----------+----------+---------------+
-|mixed_fuels| 16,500   | nan           |
 +-----------+----------+---------------+
 
 Efficiencies
@@ -128,19 +95,7 @@ Efficiencies
 +===========+=======+================+
 |gas        | 42.5  |ENTSOE2014c_    |
 +-----------+-------+----------------+
-|hard_coal  | 38.0  | Ibid.          |
-+-----------+-------+----------------+
-|oil        | 34.0  | Ibid.          |
-+-----------+-------+----------------+
-|waste      | 26.0  | Ibid.          |
-+-----------+-------+----------------+
 |biomass    | 38.0  | Ibid.          |
-+-----------+-------+----------------+
-|lignite    | 38.0  | Ibid.          |
-+-----------+-------+----------------+
-|uranium    | 32.5  | Ibid.          |
-+-----------+-------+----------------+
-|mixed_fuels| 26.0  | Ibid.          |
 +-----------+-------+----------------+
 
 - Based on efficiency classes provided by ENTSOE2014c_ average values are assumed
@@ -152,11 +107,11 @@ Technology     | Cebulla2015_ | Energynet2012_ | AEE2012_  | scenario znes_2050 
 +--------------+--------------+----------------+-----------+--------------------+
 pumped hydro   | 82.81        | 70-80          | 65-85     | 80                 |
 +--------------+--------------+----------------+-----------+--------------------+
-a_caes         | 72.98        | -              | 62-70     | 70                 |
+a_caes         | 72.98        | \-             | 62-70     | 70                 |
 +--------------+--------------+----------------+-----------+--------------------+
 hydrogen       | 46.5         | 35             | 20-40     | 40                 |
 +--------------+--------------+----------------+-----------+--------------------+
-lithium_ion    | 94.09        | -              | 90-95     | 95                 |
+lithium_ion    | 94.09        | \-             | 90-95     | 95                 |
 +--------------+--------------+----------------+-----------+--------------------+
 redox_flow     | 84.64        | 70             | 70-80     | 75                 |
 +--------------+--------------+----------------+-----------+--------------------+
@@ -165,17 +120,18 @@ redox_flow     | 84.64        | 70             | 70-80     | 75                 
 Installed capacities
 ~~~~~~~~~~~~~~~~~~~~
 
-- Source: ehighway2016_
+- Source: ehighway2016_, BNetzA2014_, energymap2014_, Cebulla2015_
 - Description: Scenario X-7: 100% RES electricity
 - Year: 2050
-- Manipulations: 
-Germany no installed capacity for Gas. (100% RE in Germany).
-Geothermal installed capacities for Germany from Leitstudie: Leitstudie2012_ and for neighbouring countries from ISI Longterm study: ISI2011_
-Germany distributet to 21 dispatch regions. 
-- Offshore: 80 % North sea and 20 % baltic sea: 40 % DEdr20 and 21, 20 % Dedr19, distribution key from ONEP2014_
-- Geothermal, solar, biomass, pumped_storage and run of river distributed according to share of installed capacity in dispatch regions in 2014 from energymap2014_. run of river data from 2014 completed with data from power plant list of BNetzA2014_
-- Windonshore: economic distributed according to fullloadhours per German district, calculated with weather data from CoastDat2_, methodology described in Soethe2015: Windausbauszenarien 2050 - unter Berücksichtigung von ökologischen und sozio-ökonomischen Schlüsselfaktoren
-- Storage capacities: a_caes, hydrogen, lithium_ion, redox_flow data based on Cebulla2015_ for all countries. Distribution in Germany to dispatch regions according to percentage of installed wind and solar capacity of each dispatch region. Available storage capacity for pumped storage derived from JRC2013_ (Scenario T1: using existing reservoirs, for DE, LU, NL, PL assumption of 10 hours discharche duration (1kW installed = 1kWh storage capacity)). For a_caes, hydrogen, lithium_ion and redox_flow the storage capacity is calculated with own assumed discharce duration (h) based on ehighwayCaes2014_ (p.8).
+- Manipulations:
+
+  - Germany no installed capacity for Gas. (100% RE in Germany).
+  - In case of Germany the data for installed capacity of geothermal power plants is taken from the Leitstudie2012_. For neighbouring countries it is taken from the ISI2011b_ longterm study.
+  - Data for run of river is completed based on the BNetzA2014_.
+  - Offshore: 80 % North sea and 20 % baltic sea: 40 % DEdr20 and 21, 20 % Dedr19, distribution key from ONEP2014_
+  - Data with regard to the future installed capacities of the storage types a_caes, hydrogen, lithium_ion, redox_flow is based on Cebulla2015_. The storage capacity of pumped storage power plants is taken from JRC2013_. (Scenario T1: using existing reservoirs, for DE, LU, NL, PL assumption of 10 hours discharge duration (1kW installed = 1kWh storage capacity)). For a_caes, hydrogen, lithium_ion and redox_flow the storage capacity is calculated with own assumed discharce duration (h) based on ehighwayCaes2014_ (p.8).
+
+
 +--------------+--------------------------+
 |country       |pumped_hydro GWh JRC2013_ | 
 +==============+==========================+
@@ -205,6 +161,7 @@ Germany distributet to 21 dispatch regions.
 +--------------+--------------------------+
 
 Own assumptions for storage duration time based on ehighwayCaes2014_
+
 +--------------+--------------+
 Technology     | duration (h) | 
 +--------------+--------------+
@@ -218,7 +175,8 @@ redox_flow     | 3.3          |
 +--------------+--------------+
 
 
-- runofriver installed capacity based on produced electricity from ehighway2016_ with an availability of 65% (5694 fullloadhours): 
+- Runofriver installed capacity based on produced electricity from ehighway2016_ with an availability of 65 % (5694 fullloadhours): 
+
 +--------------+-----------------------+------------------------+
 |country       |ror GWh ehighway2016_  |ror GW_inst znes_2050   |
 +==============+=======================+========================+
@@ -251,6 +209,7 @@ redox_flow     | 3.3          |
 Availability
 ~~~~~~~~~~~~
 - Amount of biomass and hydro limited by fullloadhours from ehighway2016_ :
+
 +--------------+-----------------------+------------------------+
 |country       |fullloadhours biomass  |fullloadhours hydro     |
 +==============+=======================+========================+
@@ -286,37 +245,49 @@ Demand
 - Source: http://data.open-power-system-data.org/time_series/2016-03-18/
 - Description: See "Source". Original Data has been provided by ENTSO-E.
 - Year: 2014
-- Manipulations: 
-Normalised by dividing the values of the respective country by their annual maximum.
-Annual maximum addjusted to maximum data from ehighway2016_
+- Manipulations: Normalised by dividing the values of the respective country by their annual maximum. Annual maximum addjusted to maximum data from ehighway2016_
 
 Transshipment - Net Transfer Capacities (NTC)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Neighbouring countries: 
-Source: ehighway2016_ Reinforced grid (based on planned grid until 2030 plus required grid for 100% RE 2050)
-- Germany capacities between dispatch regions: 
-Source: Status quo from SciGRID2015_ plus planned capacities from ENLAG2009_ and BBPlG2013_ 
-- Manipulations: 
-Grid requirements for 2050 from ehighway2016_ adjusted to German dispatch regions: north-south plus 4000 MW: dpr13-dpr17 plus 2000 MW and dpr13-dpr11 plus 2000 MW. west-east plus 6000 MW: dpr14-dpr01 plus 1000 MW and dpr03-dpr16 plus 5000 MW
+- Neighbouring countries: Source: ehighway2016_ Reinforced grid (based on planned grid until 2030 plus required grid for 100% RE 2050)
+- Germany capacities between dispatch regions: Source: Status quo from SciGRID2015_ plus planned capacities from ENLAG2009_ and BBPlG2013_ 
+- Manipulations: Grid requirements for 2050 from ehighway2016_ adjusted to German dispatch regions: north-south plus 4000 MW: dpr13-dpr17 plus 2000 MW and dpr13-dpr11 plus 2000 MW. west-east plus 6000 MW: dpr14-dpr01 plus 1000 MW and dpr03-dpr16 plus 5000 MW
 
 
 Wind and Solar Timeseries
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Source: Energy production calculated with Feedinlib2015_ 
-- Onshore: ENERCON E 101 3000, h_hub: 129, d_rotor: 104
-- Offshore: SIEMENS SWT 3.6 120, h_hub: 90, d_rotor: 120
-- Solar: Yingli_YL210__2008__E__, azimuth: 180, tilt: 30, albedo: 0.2
+- Source: FEEDINLIB2015_, CoastDat2_
+- Description: Power plant models are configured as follows.
 
-- Description: Original Data has been provided by CoastDat2_.
+  **Windonshore**
+
+  * wind_conv_type: ENERCON E 101 3000
+  * h_hub: 129
+  * d_rotor: 104
+
+  **Windoffshore**
+
+  * wind_conv_type: SIEMENS SWT 3.6 120
+  * h_hub: 90
+  * d_rotor: 120
+
+  **Solar**
+
+  * module_name: Yingli_YL210__2008__E__
+  * azimuth: 180
+  * tilt: 30
+  * albedo: 0.2
+
 - Weather Year: 2011
 - Manipulations: correction factor of 0.8 because weather data produce too high fullloadhours. Description in Wiese2015_
 
-Hydro with reservoir Timeseries
+
+Reservoir Timeseries
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Behaviour of hydro power represented with demand time series used as maximum time series for hydro with reservoir: maximum capacity can just be used at peak demand. 
+* Behaviour of hydro power represented with demand time series used as maximum time series for hydro with reservoir: maximum capacity can just be used at peak demand. 
 
 
 
