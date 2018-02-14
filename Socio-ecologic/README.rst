@@ -40,7 +40,7 @@ Fuel prices & CO2 costs
 
 
 
-with CO2 price = 62.05 EUR/tCO2 (BMU-DLR2012_)
+with CO2 price = 62.05 €2014/tCO2 (BMU-DLR2012_)
 with 3.6 GJ ~ 1 MWh
 
 Calculation factors:
