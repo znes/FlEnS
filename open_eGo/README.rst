@@ -5,19 +5,16 @@ open_eGo scenarios
 For the project open_eGo are three scenarios choosen and developed. 
 Please find in the subfolders the scenario descriptions and data.
 
-
-
-
 renpassG!S
 ==========
 
-
+The scenarios are created and caluculated with the Application renpassG!S.
+In order to reproduce the calcualten use the following commit version of renpassG!S and its dependencies. 
 
 Requirements
 ************
-The scenarios are created and caluculated with the Application renpassG!S.
-In order to reproduce the calcualten use the following commit version of renpassG!S and its 
-dependencies. 
+
+**renpassG!S**
 
 .. code-block::
     
@@ -49,13 +46,9 @@ The App renpassG!S was running with following dependencies:
    SQLAlchemy==1.1.13
 
 
-
-
-
 Copyleft
 ========
 
 Code licensed under "GNU Affero General Public License Version 3 (AGPL-3.0)"
 It is a collaborative work with several copyright owner:
 Cite as "© Flensburg University of Applied Sciences, Centre for Sustainable Energy Systems and © Europa-Universität Flensburg, Centre for Sustainable Energy Systems"
-
