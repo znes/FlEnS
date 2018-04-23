@@ -302,7 +302,10 @@ Wind & Solar Timeseries
 
 The following `locations`_ were used as starting point for feedinlib.
 
-.. _locations: https://github.com/znes/cFlEnS/blob/feature/open_eGo/open_eGo/modelpowerplants.geojson
+.. _locations: https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/znes/FlEnS/master/open_eGo/modelpowerplants.geojson
+
+
+
 
 Reservoir Timeseries
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
