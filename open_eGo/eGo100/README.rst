@@ -325,7 +325,6 @@ Licence
 =======
 
 `Open Data Commons Open Database License 1.0 (ODbL-1.0) <https://opendatacommons.org/licenses/odbl/1.0/>`_
-
 Copyright: © Europa-Universität Flensburg
 
 
