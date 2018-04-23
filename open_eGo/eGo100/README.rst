@@ -1,10 +1,9 @@
 **eGo100**. A 100 % renewable energy scenario based on ZNES base scenario 2050 created by Marion Crist originally derived from the ehighway2016_ scenario x-7: 100% RES electricity. There are no conventional power plants in Germany. Contains ENTSOE data and currently cannot be published.
 
 
-Table of contents
-~~~~~~~~~~~~~~~~~
 
-.. contents:: 
+
+.. contents:: `Table of contents`
     :depth: 1
     :local:
     :backlinks: top
