@@ -1,7 +1,6 @@
-**eGo100**
-A 100 % renewable energy scenario based on ZNES base scenario 2050 created by Marion Crist originally derived from the ehighway2016_ scenario x-7: 100% RES electricity. There are no conventional power plants in Germany. Contains ENTSOE data and currently cannot be published.
+**eGo100**. A 100 % renewable energy scenario based on ZNES base scenario 2050 created by Marion Crist originally derived from the ehighway2016_ scenario x-7: 100% RES electricity. There are no conventional power plants in Germany. Contains ENTSOE data and currently cannot be published.
 
-.. contents:: `**Table of contents**`
+.. contents:: `Table of contents`
     :depth: 1
     :local:
     :backlinks: top
@@ -358,4 +357,4 @@ There are currently some licensing issues. The data will be published under a su
 .. _ehighwayCaes2014: http://www.e-highway2050.eu/fileadmin/documents/Results/D3/report_CAES.pdf
 .. _Leitstudie2012: http://www.dlr.de/dlr/Portaldata/1/Resources/bilder/portal/portal_2012_1/leitstudie2011_bf.pdf
 .. _ISI2011b: http://www.isi.fraunhofer.de/isi-de/x/projekte/314587_bmu-langfristszenarien.php
-.. _renpassgis https://github.com/znes/FlEnS/tree/features/ego-timeseries/open_eGo#requirements
+.. _renpassgis: https://github.com/znes/FlEnS/tree/features/ego-timeseries/open_eGo#requirements
