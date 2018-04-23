@@ -324,7 +324,11 @@ Citation
 Licence
 =======
 
-There are currently some licensing issues. The data will be published under a suitable license if these are cleared.
+`**Open Data Commons Open Database License 1.0 (ODbL-1.0)** <https://opendatacommons.org/licenses/odbl/1.0/>`_
+Copyright: © Europa-Universität Flensburg
+
+
+
 
 ..  * "BMWI Energie Daten - Factors, Sheet 0.2 and 0.3":https://www.bmwi.de/BMWi/Redaktion/Binaer/energie-daten-gesamt,property=blob,bereich=bmwi2012,sprache=de,rwb=true.xls
 ..  * "DIW2013":https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf
@@ -364,3 +368,4 @@ There are currently some licensing issues. The data will be published under a su
 .. _Leitstudie2012: http://www.dlr.de/dlr/Portaldata/1/Resources/bilder/portal/portal_2012_1/leitstudie2011_bf.pdf
 .. _ISI2011b: http://www.isi.fraunhofer.de/isi-de/x/projekte/314587_bmu-langfristszenarien.php
 .. _renpassgis: https://github.com/znes/FlEnS/tree/features/ego-timeseries/open_eGo#requirements
+.. _EON2010: http://apps.eon.com/documents/EWK_Walchensee_2010_ger.pdf

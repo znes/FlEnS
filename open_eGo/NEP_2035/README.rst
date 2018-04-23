@@ -274,6 +274,7 @@ The following `locations`_ were used as starting point for feedinlib.
 .. _Bundesbank: https://www.bundesbank.de/Redaktion/DE/Downloads/Statistiken/Aussenwirtschaft/Devisen_Euro_Referenzkurs/stat_eurefd.pdf?__blob=publicationFile
 .. _NEP2015b: https://www.netzentwicklungsplan.de/nep-file-download?file=media/2016-11/NEP_2025_1_Entwurf_Teil1.pdf
 .. _FRAUNHOFER2014: https://ec.europa.eu/energy/sites/ener/files/documents/151221%20Mitteilung%20an%20KOM%20EED%20KWK%20Anlage%20Analyse.pdf
+.. _EON2010: http://apps.eon.com/documents/EWK_Walchensee_2010_ger.pdf
 
 Contact
 =======
