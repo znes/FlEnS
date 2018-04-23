@@ -18,7 +18,10 @@ Requirements
 
 .. code-block::
     
-    git clone git+https://github.com/znes/renpass_gis.git@bb1cd5643c79c5602590ac7387596ed9d939c87f#egg=renpassgis_2017dev
+    $ git clone https://github.com/znes/renpass_gis.git
+    $ cd renpass_gis
+    $ git checkout bb1cd5643c79c5602590ac7387596ed9d939c87f
+
 
 
 The App renpassG!S was running with following dependencies:
