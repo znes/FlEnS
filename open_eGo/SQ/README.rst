@@ -1,6 +1,7 @@
 
-renpassG!S status quo scenario of the open_eGo project. The scenario is derived from the ENTSO-E Ten-Year-Network-Development-Plan (TYNDP) which serves as a base for the German Netzentwicklungsplan (NEP).
-There are `licensing issues <http://open-power-system-data.org/legal>`_ due to the ENTSO-E data. The data will be published if these are cleared.
+Status quo (**SQ**) scenario of the open_eGo project. The scenario is derived from the ENTSO-E Ten-Year-Network-Development-Plan (TYNDP) which serves as a base for the German Netzentwicklungsplan (NEP).
+
+
 
 **Table of Contents**
 
@@ -328,3 +329,11 @@ Licence
 =======
 
 As mentioned above, there are currently some licensing issues due to the ENTSO-E data. The data will be published under a suitable license if these are cleared.
+
+There are `licensing issues <http://open-power-system-data.org/legal>`_ due to the ENTSO-E data. The data will be published if these are cleared.
+
+
+
+
+
+
