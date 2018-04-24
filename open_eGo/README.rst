@@ -1,3 +1,6 @@
+.. image:: https://openegoproject.files.wordpress.com/2017/02/open_ego_logo_breit.png?w=400
+    :target: https://openegoproject.wordpress.com/
+
 ==================
 open_eGo scenarios
 ==================
