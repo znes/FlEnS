@@ -206,10 +206,25 @@ _______
 Other countries
 _______________
 
-- Source: http://data.open-power-system-data.org/time_series/2016-03-18/
+- Source: http://data.open-power-system-data.org/time_series/2016-03-18/ , ENTSOE2014a_
 - Description: See "Source". Original Data has been provided by ENTSO-E.
 - Year: 2014
-- Manipulations: Normalised by dividing the values of the respective country by their annual maximum.
+- Manipulations: Normalised by dividing the values of the respective country by their annual maximum, pumped_storages (label: storage_phs).
+
+
+Pumped storages of other countries
+__________________________________
+The source ENTSOE2014a_ does not provides information on pumped hydro storages. In order to get the value we calculeted:
+
+.. math::
+             Hydro power (total)
+          -  of which renewable hydro generation
+          = storage_phs
+
+The reason for this is due to inconsistent and contradictory data sources and values. This assumption fites for most of the countries.
+
+
+
 
 Transshipment - Net Transfer Capacities (NTC)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -274,6 +289,7 @@ The following `locations`_ were used as starting point for feedinlib.
 .. _Bundesbank: https://www.bundesbank.de/Redaktion/DE/Downloads/Statistiken/Aussenwirtschaft/Devisen_Euro_Referenzkurs/stat_eurefd.pdf?__blob=publicationFile
 .. _NEP2015b: https://www.netzentwicklungsplan.de/nep-file-download?file=media/2016-11/NEP_2025_1_Entwurf_Teil1.pdf
 .. _FRAUNHOFER2014: https://ec.europa.eu/energy/sites/ener/files/documents/151221%20Mitteilung%20an%20KOM%20EED%20KWK%20Anlage%20Analyse.pdf
+.. _EON2010: http://apps.eon.com/documents/EWK_Walchensee_2010_ger.pdf
 
 Contact
 =======

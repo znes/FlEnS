@@ -1,6 +1,7 @@
 
-renpassG!S status quo scenario of the open_eGo project. The scenario is derived from the ENTSO-E Ten-Year-Network-Development-Plan (TYNDP) which serves as a base for the German Netzentwicklungsplan (NEP).
-There are `licensing issues <http://open-power-system-data.org/legal>`_ due to the ENTSO-E data. The data will be published if these are cleared.
+Status quo (**SQ**) scenario of the open_eGo project. The scenario is derived from the ENTSO-E Ten-Year-Network-Development-Plan (TYNDP) which serves as a base for the German Netzentwicklungsplan (NEP).
+
+
 
 **Table of Contents**
 
@@ -205,7 +206,21 @@ _______________
 - Source: ENTSOE2014a_
 - Description: 19:00pm values, Scenario B (Best estimate) based on the expectations of the TSO, See "Source". Original Data has been provided by ENTSO-E.
 - Year: 2014
-- Manipulations: None
+- Manipulations: None, except pumped_storages (label: storage_phs) 
+
+
+Pumped storages of other countries
+__________________________________
+The source ENTSOE2014a_ does not provides information on pumped hydro storages. In order to get the value we calculeted:
+
+.. math::
+             Hydro power (total)
+          -  of which renewable hydro generation
+          = storage_phs
+
+The reason for this is due to inconsistent and contradictory data sources and values. This assumption fites for most of the countries. Bigger differenz can be found for SE, LU and CH.
+
+
 
 Availability
 ~~~~~~~~~~~~
@@ -328,3 +343,11 @@ Licence
 =======
 
 As mentioned above, there are currently some licensing issues due to the ENTSO-E data. The data will be published under a suitable license if these are cleared.
+
+There are `licensing issues <http://open-power-system-data.org/legal>`_ due to the ENTSO-E data. The data will be published if these are cleared.
+
+
+
+
+
+
